@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 5%;
+  margin: 5;
+   display:inline-block ;
+  
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+ 
+  border-radius: 0%;
+}
+
+
+.red {
+  background-color: red;
+   
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: pink;
+ 
+  text-align: center;
+  height: 200px;
+  width: 200px;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+ 
+  color: #fff;
+}
